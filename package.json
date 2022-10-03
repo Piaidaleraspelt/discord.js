@@ -13,6 +13,7 @@
 		"docs": "turbo run docs --parallel",
 		"update": "yarn upgrade-interactive"
 	},
+	
 	"contributors": [
 		"Crawl <icrawltogo@gmail.com>",
 		"Amish Shah <amishshah.2k@gmail.com>",
@@ -20,6 +21,7 @@
 		"SpaceEEC <spaceeec@yahoo.com>",
 		"Aura Román <kyradiscord@gmail.com>"
 	],
+	
 	"keywords": [
 		"discord",
 		"api",
@@ -28,13 +30,16 @@
 		"node",
 		"discordapp"
 	],
+	
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/discordjs/discord.js.git"
 	},
+	
 	"bugs": {
 		"url": "https://github.com/discordjs/discord.js/issues"
 	},
+	
 	"homepage": "https://discord.js.org",
 	"devDependencies": {
 		"@commitlint/cli": "^17.1.2",
@@ -49,14 +54,18 @@
 		"turbo": "^1.5.3",
 		"typescript": "^4.8.3"
 	},
+	
 	"resolutions": {
 		"@microsoft/tsdoc-config": "patch:@microsoft/tsdoc-config@npm:0.16.1#.yarn/patches/@microsoft-tsdoc-config-npm-0.16.1-81031b1bbf.patch"
 	},
+	
 	"engines": {
 		"node": ">=16.9.0"
 	},
+	
 	"workspaces": [
 		"packages/*"
 	],
+	
 	"packageManager": "yarn@3.2.1"
 }
